@@ -8,7 +8,7 @@ const ALLOWED_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp']);
 const TAG_STOP_WORDS = new Set(['and', 'the', 'for', 'with', 'from', 'default', 'defaults']);
 const MAX_WIDTH = 800;
 const WEBP_QUALITY = 80;
-const DEFAULT_BASE_URL = 'https://example.github.io/rfs-default-image-assets';
+const DEFAULT_BASE_URL = 'https://app-brigade-public-assets.shiftmomentum.au/';
 
 const repoRoot = process.cwd();
 const sourceRoot = path.join(repoRoot, 'source');
