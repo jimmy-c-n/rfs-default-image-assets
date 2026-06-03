@@ -1,0 +1,78 @@
+name: Build Default Assets
+
+on:
+  push:
+    paths:
+      - 'source/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/build-default-assets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build default assets
+        run: |
+          BASE_URL="${{ vars.PAGES_BASE_URL }}"
+          if [ -z "$BASE_URL" ]; then
+            BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+          fi
+          export BASE_URL
+          npm run build
+
+      - name: Commit generated public changes
+        run: |
+          if git diff --quiet -- public; then
+            echo "No generated public changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public
+          git commit -m "chore: rebuild default asset output"
+          git push
+
+      - name: Set up GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+

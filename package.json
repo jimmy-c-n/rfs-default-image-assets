@@ -1,0 +1,15 @@
+{
+  "name": "rfs-default-image-assets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone default image asset pipeline for GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-default-assets.mjs",
+    "clean": "node --input-type=module -e \"import { rmSync } from 'node:fs'; rmSync('public', { recursive: true, force: true });\""
+  },
+  "dependencies": {
+    "sharp": "^0.34.2"
+  }
+}
+
