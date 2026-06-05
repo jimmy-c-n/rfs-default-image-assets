@@ -1,0 +1,1866 @@
+{
+  "S9nDCbh4FlCXafPEo8HH": {
+    "label": "Eungai Cat 1",
+    "type": "appliances",
+    "tags": [
+      "CAT1"
+    ],
+    "category": "CAT1"
+  },
+  "omQeLZCp72ZtTHmVuJf5": {
+    "label": "Eungai Cat 7",
+    "type": "appliances",
+    "tags": [
+      "CAT7"
+    ],
+    "category": "CAT7"
+  },
+  "DZBot9gxmOXm0vHa7ZXt": {
+    "label": "Eungai RFS Station",
+    "type": "appliances",
+    "tags": [
+      "STATION"
+    ],
+    "category": "STATION"
+  },
+  "O5oR5H32Q8DQAM5XcP3Y": {
+    "label": "20 litre pails foam (Class A or Forexpan)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "onOSSGDI425tiJwTfekr": {
+    "label": "20 litre pails foam (Class A or Forexpan)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "sARJUKTUhRwz0ePeaRVl": {
+    "label": "Absorbent Spill 25L Drum",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "00hMI3QyypHgvKIvyt9W": {
+    "label": "Absorbent Spill 50L Bag",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "Y9x7bPuKjLSa0UrTdAjv": {
+    "label": "AED (Automated External Defibrillator)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "aBj5Ib2YniBzWTM5eI4k": {
+    "label": "AED (Automated External Defibrillator)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "vrnqOsJosgERvjNZCfi0": {
+    "label": "Air Hose",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "WGdf5JGiAcpjE9GwDA6Q": {
+    "label": "Alcohol Wipes Pack",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "PL6eDHxhwy2BxqfeEa0u": {
+    "label": "Assisted CPR Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "vwvZdl8FGkVxEpfij9Ur": {
+    "label": "Assisted CPR Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "PJmWFkXIYShBkRp7X3US": {
+    "label": "Axe",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "TW3EDNkUk75gFULXLyGf": {
+    "label": "Axe",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "CWLclwTez8KVW1Dg0Jar": {
+    "label": "Backpack Blower (STIHL)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "STDa6tCh0dCgbA0SAkhn": {
+    "label": "Backpack Blower(STIHL)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "jzjppOmSBqkyx4R4LZrI": {
+    "label": "Baco Board and Chinagraph Pencil",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ILFR6VnscbwB5nV8G4kO": {
+    "label": "Baco Control Vest",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "0wArNs0jNEtH1wxzv3yS": {
+    "label": "Bolt Cutters Medium – 450mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "HxjFdPKWbOczf3z1OReN": {
+    "label": "Bolt Cutters Medium – 450mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "54FG359zBf0DprgsN2sg": {
+    "label": "Branch - AWG (38mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "16RNowjj84oKgKYsbQoZ": {
+    "label": "Branch - Dial A jet (25mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "x2bccA8GveaLLPy7IuAZ": {
+    "label": "Branch - Dial A jet (25mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "KDE2wW2pl4PaWp92QvcR": {
+    "label": "Branch - Dial A jet (25mm) - 1 on live reel & 1 in Crew Area",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "VT3pdQLc7MNAViTrz1bc": {
+    "label": "Branch - Dial A jet (25mm). 1 on live reels, 2 in Crew Area",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "JYnhqUJg0VBFvD3ecOpQ": {
+    "label": "Branch - Dial A jet (38mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "NQSy5UnbapimcKInWJoB": {
+    "label": "Branch - Foam (38mm) Nozzle",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "zRCAidBnA4oFL4LwIsxu": {
+    "label": "Branch - Foam (38mm) Nozzle",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "N6lPjWpGjFyuAXCpyjOI": {
+    "label": "Branch - Foam Nozzle (25mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "vojrZPA3TFKy0eXdX9Dr": {
+    "label": "Branch - Pistol grip (25mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "BKxZpphbDe6e6Pmyla7X": {
+    "label": "Branch - Pistol Grip (25mm) on Live Reel",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "FcvxAXRs2gjj9t54TWJk": {
+    "label": "Branch - Pistol grip (38mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "vj1p79P3Lv3lqZUaxcZG": {
+    "label": "Branch - Pistol Grip (38mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "z7v8cN1YtufQOrx8QMZD": {
+    "label": "Breaker Bars",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "6m6RySlhBUJhLCerjbJu": {
+    "label": "Broom",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "MoZyksnpEVcBUmcmwRHA": {
+    "label": "Broom",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "paB6zRrcHQ2wefaRAD35": {
+    "label": "Bug Spray",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "JO781Lz3iJlRzy3ILOTT": {
+    "label": "CABA Sets (Harness, 300 Bar Cylinder, DSU, Torch and Mask)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "A42Ma8zHyYcMjaYZ6qGV": {
+    "label": "Ceiling Hook",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "dCLtQv48hqZvFJjsHkl8": {
+    "label": "Chainsaw (STIHL MS210 16 Inch)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "lsd6DEDMPb9jx1KCw3IW": {
+    "label": "Chainsaw (STIHL MS261C 16 Inch)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "9Ln8NrtldevO319S5DE1": {
+    "label": "Chainsaw (STIHL MS460 25 Inch)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "RMJHH5ZEwltiJ3DGtUUv": {
+    "label": "Chainsaw Chaps",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "vqwOLcdNeoyGIl33J30K": {
+    "label": "Chainsaw Chaps",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "7QTLFgHaJRtM9SJYWwck": {
+    "label": "Chainsaw Combo Can (2 STROKE FUEL & BAR OIL)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "8X5f5UyYYKHVNjD32OAl": {
+    "label": "Chainsaw Combo Can (2 STROKE FUEL & BAR OIL)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "EMcDQpu97JHHU6pa2khH": {
+    "label": "Chainsaw Helmet Kit (Helmet, Visor & Ear Muffs)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "KL76lii7Dpa1zG4WNDou": {
+    "label": "Chainsaw Helmet Kit (Helmet, Visor & Ear Muffs)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ufBLl3RkraxdATYY5Byl": {
+    "label": "Chainsaw Tool Kit / Sharpening Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "woRjV3rCIyfInglGlQh2": {
+    "label": "Chainsaw Tool Kit / sharpening Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "1yt748jctcq26J2kIovc": {
+    "label": "Chairs",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "C4GYj0No6ido2IwMiFxl": {
+    "label": "Chairs",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "aMfmqyKzTkwyBapZDiNe": {
+    "label": "Clingwrap",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "DTfbui4NeteXHmfLqUDV": {
+    "label": "Clingwrap (Roll)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "bR6wnmPuZTAYYoUiYlYq": {
+    "label": "Crew Area Hose - 25mm & Storz Reducer - 38mm x 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "rHP5iT00AP03EaURsS0A": {
+    "label": "Crew Area Hoses - 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "kOCE9tL25o098YLUUF2E": {
+    "label": "Crowbar",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ePffFrel61IKJt1RGwZv": {
+    "label": "Drip Torch and Cover",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "y9LybFkjVm9lV2oKgsjk": {
+    "label": "Drip Torch and Cover",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "C2ahWz6vB6gghaeD4jdc": {
+    "label": "Dust mask - P2 (Box)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "Xj7KXYryF3bJ0Y70K7Zx": {
+    "label": "Dust mask - P2 (Box)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "6d68IzSIb8gpGrJ9tMOC": {
+    "label": "Dust mask - P3 Masks (Half Face)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "fFJjabiWPp4bfsJOjyrw": {
+    "label": "Dust mask - P3 Masks (Half Face)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "BSHW6eu2vLfdw5TfHcyl": {
+    "label": "Emergency Window Breaker",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "RqqznkCvpPb7EqK3SCaK": {
+    "label": "Emergency Window Breaker",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "Xqs12KTZPPQWB02af9dA": {
+    "label": "Esky or Fridge - Approved by Engineering",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ihNy4WJh4DROlEZwIOJ0": {
+    "label": "Esky or Fridge – Approved by Engineering",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "cMQChXS46SR2Lxia9OkA": {
+    "label": "Extinguisher (9kg Dry Powder)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "xxx1rxtsoTUoefsNlid5": {
+    "label": "Extinguisher (9kg Dry Powder)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "KB2TWRDqNsECoRPBaQYn": {
+    "label": "Extinguisher (9L Foam)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "9LCHgz0oJQQDjq6RVikl": {
+    "label": "Filter Wrench",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "QREJLTpWmfQ5zkThcbD6": {
+    "label": "First Aid Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "gsSKTNDToRD2zw4uvcZI": {
+    "label": "First Aid Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "p9K0BQK40PFKsXyjdRAz": {
+    "label": "Float - Portable Firefighting Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "tfrMyYFFB3b32W48iTnC": {
+    "label": "Float  - Portable High Flow Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "cz9GKUYuI52hVRlASGXB": {
+    "label": "Float - Portable Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "gyIgY6Wc7upIytFjlLlE": {
+    "label": "Float - Tanker Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "kfKp9QNnttzIh7AgdBWF": {
+    "label": "Float  - Tanker Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "h2GYZLEb2Sh5m8v3xgGA": {
+    "label": "Floodlights (incl. tripod) & leads",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "iY7utuKOp324a71sVLJo": {
+    "label": "Fuel Funnel (Green)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "5LJDumI7ftnrd639LbUC": {
+    "label": "Funnel",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "FAgnMn9tx8Chjwa8TYcB": {
+    "label": "Grinder Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "JRMKcBPvsPuHW3gh3Og3": {
+    "label": "Grinder Kit",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "eBzhDWfHcyT2YaueFoQN": {
+    "label": "Hacksaw",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "JhTxe9CbcQtjS4fkYbfF": {
+    "label": "Halligan Tool",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "Vkhmc1JpfikJuQIwQC7x": {
+    "label": "Halligan Tool",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "tq5AAVNOIu2qnBU0Q9Qg": {
+    "label": "Hazard Material Bags (pack)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "TU1mGtdSBPNmFns6iI87": {
+    "label": "Hazard Signs",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "FIkIHMqcHJ9KjoGigVMr": {
+    "label": "Hazmat Suits",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "4703MmNB1NVt85pWCjBm": {
+    "label": "Hose - 25mm Perc. + 30m (coupled) (Cleveland)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "wsiM7C51KUAVGtrwjgkZ": {
+    "label": "Hose - 25mm Perc. + 30m (coupled) (Cleveland)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "1qhqaE41ja8tVWVzy7vZ": {
+    "label": "Hose - 25mm Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "3haw8saON5etYk0VOKol": {
+    "label": "Hose - 25mm Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "tPyqg1MM1zDZikN4RaO8": {
+    "label": "Hose - 25mm Perc. x SHORT LENGTH (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "VsffM0eULL3ks31g7vR0": {
+    "label": "Hose - 38mm Non Perc. x 1m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "k7RUGyA2lLjBtBrYIQtC": {
+    "label": "Hose - 38mm Non Perc. x 1m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "FEUtFFuzVIPzPJ6XqA8K": {
+    "label": "Hose - 38mm Non Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "THSSW5N4dfy2elw7fXpo": {
+    "label": "Hose - 38mm Non Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "GPdJGf6QIp4l51B53cJR": {
+    "label": "Hose - 38mm Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ndGu2ELNp2vPnkidvoN7": {
+    "label": "Hose - 38mm Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ArAWXNm3On4mivfhuoMP": {
+    "label": "Hose - 65mm Non Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "m6fKc6ZfptNEx2Vhvlfx": {
+    "label": "Hose - 65mm Non Perc. x 30m (coupled)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "JobGnTioCfxdx41hvuLA": {
+    "label": "Hose - 65mm Perc. x 5m. (Red Duraline)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "J3KQwa5Iu1CAGTMIs01a": {
+    "label": "Hose - 65mm x 5m. (Red Duraline)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "WSN2jvaoYHzcUdSXFevG": {
+    "label": "Hose Winder and 2x Handles",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "hQPmAMNS72trEDeOEkVa": {
+    "label": "Hose Winder and Handle",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "UmaXQxyEvqQjuiXe2jGG": {
+    "label": "Hydraulic Jack",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "RVzgkcvabWiI3SPVq6qA": {
+    "label": "Jerry Can - 10 litre 2 Stroke",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "z7f0Rc3YEaFQ3TPsZpR1": {
+    "label": "Jerry Can - 10 litre 2 Stroke",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ojTfh520pueukfo7eExO": {
+    "label": "Jerry Can - 10 litre Unleaded",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "7ksWxzXnEykMcKdomLek": {
+    "label": "Jerry Can - 20 litre Drip Torch",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "7qRpfRybfQI9hILYc3kA": {
+    "label": "Jerry Can - 20 litre Drip Torch",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "k0BsjWrXgyGL6pMR0ihf": {
+    "label": "Jerry Can - 20 litre Unleaded",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "TXSm37RKnX1KPjHTaO79": {
+    "label": "Jerry Can Spout",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "d160cygHYPSTynCTQnPl": {
+    "label": "Jerry Can Spout",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "1oVN9nCdn4RXwAVJGAYO": {
+    "label": "Knapsack",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "0cea3BCRITI8TgyQDfu4": {
+    "label": "Knapsacks",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "5P162nvM7w96vqWmkHlm": {
+    "label": "Ladder - folding access ladder (180kg rated)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "PcKujR7CoGVmghB8eARw": {
+    "label": "Large Torch (Yellow Dolphin/Eveready)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "SFJI7sdRYjdUT58y2P0Z": {
+    "label": "Leads - Jumper - Heavy Duty",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "SOLGzLxUE3ZxGnIzk7dR": {
+    "label": "Leads - Jumper - Heavy Duty",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "EV1CNwOMpf9KaWWPXq6B": {
+    "label": "Live Reel (60m)",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "kIpe4Omh7nVPjrCJ4Xfw": {
+    "label": "Live Reels (Rear)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "rnQIlCqvA3WZhnll2Rxq": {
+    "label": "Long Guideline - (60m)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "jYrfB44euQPpTFygPBpq": {
+    "label": "Marking Tape",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "xAH0EKxFwgPaaEzL8QRp": {
+    "label": "Marking Tape",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "Ifu2155Ad8X4eSpiJHYv": {
+    "label": "McLeod Tools",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "YNENOQ1JUKfmUqsL15VW": {
+    "label": "McLeod Tools",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "4rbKCh77f4tXuaw2dDOi": {
+    "label": "Personal Guidelines - (6m)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "z5UtxgTqVVmH7d62ZnNL": {
+    "label": "Pink Marking Paint",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "XAXEVT5cGis1J4mz4llT": {
+    "label": "Portable FG radios - Charged",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "9D7yQCkpQmtG2q3F2IlI": {
+    "label": "Portable Fire Fighting Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "lxsRn12p71WJyOpw9o7S": {
+    "label": "Portable Firefighting Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "I3WeIqiEblE6ojkNEMIA": {
+    "label": "Portable High Flow Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "ZjuPayGhGtryNkFRVHrN": {
+    "label": "Portable PSN radio - Charged",
+    "type": "items",
+    "tags": [
+      "Stocktake & Inspect"
+    ],
+    "category": "Stocktake & Inspect"
+  },
+  "jtIwF6sI2Xdr6hyokpcW": {
+    "label": "Rag",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "OtqoIATfFTNjbZpTMkkw": {
+    "label": "Rain Coats",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "kFMW2UzRJvOEPmgzFof5": {
+    "label": "Rain Coats",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "aRVuaWjMn4b9M4vdb5ke": {
+    "label": "Respirator Cleaning Wipes Box",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "o2U7MoKICzGOP5zFZaWY": {
+    "label": "Rope (Various Lengths)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "uBmGDMXwHBoTvCVdLVV4": {
+    "label": "Ropes (Various Lengths)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "yYFx2Umr08ZD9jmOOv70": {
+    "label": "Safety Vests",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "1JOASQhWlBZQQ1UFMN2q": {
+    "label": "Shovel",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "nlMbWpBv1WbM2Cb5uv4i": {
+    "label": "Shovel",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "MKh0wprmttUPds0XyGP6": {
+    "label": "Skin Care Kit (Sunscreen, bug repellent)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "J2KILWqleVyNrOWEZqwt": {
+    "label": "Sledge Hammer",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "0Es9fIz8EfwlrEhTFs49": {
+    "label": "Spare 300 Bar Cylinder",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "gdgDYzJWyGKnxtrh4JgL": {
+    "label": "Spare Bar and Chain (STIHL MS460 16 Inch)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "UFkqVWcbxJl0KEvDRn1i": {
+    "label": "Spare Hose Seal rings",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "FtuxCss4Ihp8pAAo6eqS": {
+    "label": "Spare Hose Seals And Vaseline",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "uWAWEXmAVaSpiV5Qm9IR": {
+    "label": "Spare Torch Battary",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "uFMEsCejDRqYfNXahl3U": {
+    "label": "Spare Torch Battery",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ZcAbIdMI9S6BRj2iIo6H": {
+    "label": "Spare White Helmet",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "iDaXXKvrWLPaIbkWBOI5": {
+    "label": "Staging Area Mat",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "2IdStK6cnBOd26DmGYRE": {
+    "label": "Standpipe Hydrant Bars",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "jViY2hpJOcY14i6zfzQv": {
+    "label": "Standpipe Hydrant Bars",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "0hecHEev6kaA4FhSyJjq": {
+    "label": "Standpipes - 1 single head",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "g6xHKIYc5wethZDUiTnW": {
+    "label": "Standpipes - 1 Single Head",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "Uyfsc32BZgJYuQ5EbS4z": {
+    "label": "Stop / Slow sign",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "sqkJUkytm83ZXGq16KL7": {
+    "label": "Stop / Slow sign",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "xep85iMqeGObJelEWPlv": {
+    "label": "Storz 25mm x Tap Fitting",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "0hW5Fnwv1rARzn2TGWUY": {
+    "label": "Storz Adaptor -  Fire Thread M/F set",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "JmJ8VsbqN2XNh0KlKnDf": {
+    "label": "Storz Adaptor -  Fire Thread M/F set",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "zBQJFoKBjkkE19sb5gam": {
+    "label": "Storz Bleed Valve - 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "aSgeXNCgsWTkJQfezCX1": {
+    "label": "Storz Breeching - 38mm - 2 x 25mm controlled",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "CZBsXBAOHIUZoAoDDsiG": {
+    "label": "Storz Breeching - 38mm - 2 x 38mm controlled",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "PkUJplBAEXWlJNwiMptK": {
+    "label": "Storz Breeching - 65mm - 2 x 65mm Controlled",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ZzTn2DWoSTLGfssOLI4m": {
+    "label": "Storz Breeching - 65mm - 2 x 65mm controlled",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "esXRKL1FfBBWiBvfQWk6": {
+    "label": "Storz Butterfly Valve - 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "wLyt5qzyQWmRFP4dN231": {
+    "label": "Storz Butterfly Valve - 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "3LFeCMuOPUETC2vTuLlA": {
+    "label": "Storz Reducer - 38mm x 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "en291Y3Y9SW4Yigjonmk": {
+    "label": "Storz Reducer - 38mm x 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "mn3CYjXJMeD8VbHud0mj": {
+    "label": "Storz Reducer - 38mm x 25mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "eI91nIm4kcACADQM0YyJ": {
+    "label": "Storz Reducer - 38mm x 65mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "4scpSTTTAwHzbDEbRgPW": {
+    "label": "Storz Reducer - 65mm x 38mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "BgZFoj1co03JkuWta02V": {
+    "label": "Storz Reducer - 65mm x 38mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "VxwhZQ8ZPkYlAf8y348I": {
+    "label": "Storz Reducer - 65mm x 50mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "XfXkgOoLPnVUQ4bJXCx1": {
+    "label": "Storz Reducer - 65mm x 50mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "5KLfdBWzH9x6aBgMZMcC": {
+    "label": "Storz Reducer - 75mm x 65mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "74seCnzAre3UWUDSWSXs": {
+    "label": "Storz Reducer - 75mm x 65mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "fRolGrepCq7543k7ykbX": {
+    "label": "Storz Reducer - 75mm x 65mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "vIy2kJUs1vOjMrcOIsAo": {
+    "label": "Storz Reducer - 75mm x 65mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ZxFKuJP9sSjIlWlVgCEO": {
+    "label": "Storz Spanner (25mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "oRBnVZzisgfxwshTXGrY": {
+    "label": "Storz Spanner (25mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "494pwIcSByWJqOSIaKdP": {
+    "label": "Storz Spanner (38mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "X6xZGNuA2xmAkitcCla0": {
+    "label": "Storz Spanner (38mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "fK5WT6pg3Xi9KlZ6fyAD": {
+    "label": "Storz Spanner (65mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "lr4kE5YFHdNzAbyNgDX3": {
+    "label": "Storz Spanner (65mm)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "hyNT0cmsMJOQzrfjcBzU": {
+    "label": "Suction Hose & Strainer  - 38mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "vzTQkpHWFL1BMnhyGE8g": {
+    "label": "Suction Hose & Strainer - 38mm.",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "GIif7i4ncyexgBjuf3jz": {
+    "label": "Suction Hose & Strainer  - 65mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "saTgiqRx5L63jY00OpsU": {
+    "label": "Suction Hose & Strainer  - 75mm",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "zQ2gD82OeQIVkqfJXcXj": {
+    "label": "Surgical / Medical Gloves (pack)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "JHznVbmtQrGUKR1H7BWZ": {
+    "label": "Surgical/ Medical Gloves (Pack)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "IHQV6HQpNdq0BDZQ1da2": {
+    "label": "Tarpaulin Sheet",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "H3lxiXGtQtToTRRF6KTX": {
+    "label": "Toilet Paper",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "INNyMw36jZiE1e3FjvV5": {
+    "label": "Tool Kit - Portable Firefighting Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "gSdGPAfnJ1O3NemU6YU2": {
+    "label": "Tool Kit - Portable High Flow Pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "FsWqa2PeBMigPqbfEkWw": {
+    "label": "Tool Kit - Tanker pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "zRM6zexY5PKUde8NLTG6": {
+    "label": "Tool Kit - Tanker pump",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "9UPFpbedeukwkRCtEO1N": {
+    "label": "Tool Kit – Vehicle",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "zI4VcZRtJG5eGyC2yvWW": {
+    "label": "Tool Kit – Vehicle",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "uLw5tXpHlbdMK7vsVxtq": {
+    "label": "Torque Multiplier",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "v0AzOF9c2KBsxoo0NTPN": {
+    "label": "Torque Multiplier",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "T2wfCni77JdaXd5gxR4k": {
+    "label": "Tow Cable",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "eQJhwFFY9TWU8TT70Lp9": {
+    "label": "Tow Cable",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "L8JcZC9YCcTzHdDwM7Be": {
+    "label": "Tow Chain",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "NgP5m0I47P5Yixu6JPcP": {
+    "label": "Traffic Warning Cones (Various sizes)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "pHxsgV0M7KSCI0WqXa55": {
+    "label": "Traffic Warning Cones (Various Sizes)",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "Q1wuCjkuJfitlPjTFuMX": {
+    "label": "Traffic Warning Triangles",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "ZNdQbogdW04OwB5HlVf9": {
+    "label": "Traffic Warning Triangles",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "IbEgrbgFvOrao3NxMyur": {
+    "label": "Wheel chock",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "n2owOnahcBz9EFf1qzw6": {
+    "label": "Wheel Chocks",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "7m99jgd3ywxFrZIoDFYl": {
+    "label": "Wooden Blocks",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "pLGxwoP8yoRbCqI1Ohbd": {
+    "label": "Wooden Blocks",
+    "type": "items",
+    "tags": [
+      "Stocktake"
+    ],
+    "category": "Stocktake"
+  },
+  "kRQb91iO8mSMP2lmwibz": {
+    "label": "Cab",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "QTsf9eZ8DMg0AmsTHs3T": {
+    "label": "Chassis",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "TJ43JcoMubMc6DZdL9yC": {
+    "label": "Crew Area Box #1",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "BCWraLCkurJT5rocviL7": {
+    "label": "Crew Area Box #2",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "3gG7xOJQwXqPk65tmEZG": {
+    "label": "Equipment",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "BckEpWdXpHP7IntpcVAQ": {
+    "label": "Locker Icon #1",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "u1ITHvphGWRgrOkfNn89": {
+    "label": "Locker Icon #2",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "qAlIk6p58tG2DZD03qp5": {
+    "label": "Locker Icon #2 - BA Style",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "jRpeNUXzaFRVjN5ZUkmD": {
+    "label": "Locker Icon #3",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "kAMbn4zaZxp3JgmB4H22": {
+    "label": "Locker Icon #3 - AED Style",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "yqnIzUKGPu2nyfxJdo2H": {
+    "label": "Locker Icon #4",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "fXhMAExSs0wiwgd397jl": {
+    "label": "Locker Icon #4 - AED Style",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "lncvEAeMzwaImo25iC0w": {
+    "label": "Locker Icon #5",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "ufZDqi1KVQEzSDiFpNyt": {
+    "label": "Maintenance",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "vIIUaqFqQnGM6wMNoVSn": {
+    "label": "Radio",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "nPIupQoCdg9gx8gAloN9": {
+    "label": "Tyre",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "QanHWyzLyrWOngSZcmWp": {
+    "label": "Wall Equipment/Accessories",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  }
+}

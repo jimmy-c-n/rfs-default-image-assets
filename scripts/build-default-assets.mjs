@@ -5,16 +5,108 @@ import sharp from 'sharp';
 
 const SOURCE_TYPES = ['items', 'appliances', 'locations'];
 const ALLOWED_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp']);
-const TAG_STOP_WORDS = new Set(['and', 'the', 'for', 'with', 'from', 'default', 'defaults']);
+const TAG_STOP_WORDS = new Set([
+  'a',
+  'an',
+  'and',
+  'or',
+  'the',
+  'of',
+  'to',
+  'for',
+  'with',
+  'in',
+  'on',
+]);
 const MAX_WIDTH = 800;
 const WEBP_QUALITY = 80;
 const DEFAULT_BASE_URL = 'https://app-brigade-public-assets.shiftmomentum.au';
+const METADATA_PATH = path.join('metadata', 'glide-image-metadata.json');
 
 const repoRoot = process.cwd();
 const sourceRoot = path.join(repoRoot, 'source');
 const publicRoot = path.join(repoRoot, 'public');
 const manifestOutputPath = path.join(publicRoot, 'rfs-uploads', 'defaults', 'image-manifest.json');
+const metadataPath = path.join(repoRoot, METADATA_PATH);
 const baseUrl = (process.env.BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, '');
+
+function isSourceType(value) {
+  return SOURCE_TYPES.includes(value);
+}
+
+function normalizeTags(tags) {
+  if (!Array.isArray(tags)) {
+    return [];
+  }
+
+  return dedupeTags(
+    tags.flatMap((tag) => (typeof tag === 'string' ? tokenizeTagText(tag) : []))
+  );
+}
+
+function tokenizeTagText(value) {
+  return (value.toLowerCase().match(/[a-z0-9]+/g) ?? []).filter(
+    (part) => part && !TAG_STOP_WORDS.has(part)
+  );
+}
+
+function dedupeTags(tags) {
+  const seen = new Set();
+  const normalized = [];
+
+  for (const tag of tags) {
+    const trimmed = tag.trim().toLowerCase();
+    if (!trimmed || seen.has(trimmed)) {
+      continue;
+    }
+
+    seen.add(trimmed);
+    normalized.push(trimmed);
+  }
+
+  return normalized;
+}
+
+async function loadMetadata() {
+  try {
+    const raw = await readFile(metadataPath, 'utf8');
+    const parsed = JSON.parse(raw);
+
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+      throw new Error('Metadata JSON must be an object keyed by filename stem.');
+    }
+
+    const metadata = new Map();
+
+    for (const [key, value] of Object.entries(parsed)) {
+      if (!value || typeof value !== 'object' || Array.isArray(value)) {
+        continue;
+      }
+
+      const trimmedKey = key.trim();
+      if (!trimmedKey) {
+        continue;
+      }
+
+      metadata.set(trimmedKey, value);
+      metadata.set(trimmedKey.toLowerCase(), value);
+      const stemKey = path.basename(trimmedKey, path.extname(trimmedKey)).trim();
+      if (stemKey) {
+        metadata.set(stemKey, value);
+        metadata.set(stemKey.toLowerCase(), value);
+      }
+    }
+
+    return metadata;
+  } catch (error) {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
+      console.warn(`[build-default-assets] Metadata file not found at ${METADATA_PATH}; using filename fallback metadata only.`);
+      return new Map();
+    }
+
+    throw error;
+  }
+}
 
 function isHiddenOrUnsafe(name) {
   if (!name || name.startsWith('.')) {
@@ -32,9 +124,30 @@ function toSlug(value) {
     .replace(/^-+|-+$/g, '');
 }
 
-function buildLabel(filename) {
-  const stem = path.basename(filename, path.extname(filename));
-  const normalized = stem.replace(/[^A-Za-z0-9]+/g, ' ').trim();
+function parseSourceFilename(filename) {
+  const sourceStem = path.basename(filename, path.extname(filename));
+  const separatorIndex = sourceStem.indexOf('__');
+
+  if (separatorIndex === -1) {
+    return {
+      labelStem: sourceStem,
+      legacyImageId: null,
+      sourceStem,
+    };
+  }
+
+  const labelStem = sourceStem.slice(0, separatorIndex).trim();
+  const legacyImageId = sourceStem.slice(separatorIndex + 2).trim();
+
+  return {
+    labelStem: labelStem || sourceStem,
+    legacyImageId: legacyImageId || null,
+    sourceStem,
+  };
+}
+
+function buildLabelFromStem(labelStem) {
+  const normalized = labelStem.replace(/[^A-Za-z0-9]+/g, ' ').trim();
 
   if (!normalized) {
     return 'Untitled Image';
@@ -46,18 +159,51 @@ function buildLabel(filename) {
     .join(' ');
 }
 
-function buildTags(filename) {
-  const stem = path.basename(filename, path.extname(filename)).toLowerCase();
-  const parts = stem.split(/[^a-z0-9]+/).filter(Boolean);
-  const tags = [];
+function buildTagsFromLabel(label) {
+  return dedupeTags(tokenizeTagText(label));
+}
 
-  for (const part of parts) {
-    if (!TAG_STOP_WORDS.has(part) && !tags.includes(part)) {
-      tags.push(part);
-    }
+function getMetadataForEntry(type, filename, parsedFilename, metadata) {
+  const lookupKeys = [
+    parsedFilename.sourceStem,
+    filename,
+    parsedFilename.legacyImageId,
+    parsedFilename.labelStem,
+  ].filter(Boolean);
+
+  const lookup = lookupKeys
+    .flatMap((key) => [key, key.toLowerCase()])
+    .map((key) => metadata.get(key))
+    .find(Boolean);
+
+  if (!lookup) {
+    return null;
   }
 
-  return tags;
+  const safeType =
+    typeof lookup.type === 'string' && isSourceType(lookup.type) && lookup.type === type
+      ? lookup.type
+      : type;
+
+  if (typeof lookup.type === 'string' && isSourceType(lookup.type) && lookup.type !== type) {
+    console.warn(
+      `[build-default-assets] Ignoring metadata type mismatch for ${filename}: expected ${type}, got ${lookup.type}.`
+    );
+  }
+
+  return {
+    category: typeof lookup.category === 'string' && lookup.category.trim()
+      ? lookup.category.trim()
+      : undefined,
+    label: typeof lookup.label === 'string' && lookup.label.trim()
+      ? lookup.label.trim()
+      : undefined,
+    sourceTable: typeof lookup.sourceTable === 'string' && lookup.sourceTable.trim()
+      ? lookup.sourceTable.trim()
+      : undefined,
+    tags: normalizeTags(lookup.tags),
+    type: safeType,
+  };
 }
 
 async function ensureDirectory(directoryPath) {
@@ -77,7 +223,7 @@ async function loadSourceEntries(type) {
     }));
 }
 
-async function buildType(type) {
+async function buildType(type, metadata) {
   const sourceEntries = await loadSourceEntries(type);
   const outputDirectory = path.join(publicRoot, 'rfs-uploads', type, 'defaults');
   await ensureDirectory(outputDirectory);
@@ -85,6 +231,8 @@ async function buildType(type) {
   const manifestEntries = [];
 
   for (const entry of sourceEntries) {
+    const parsedFilename = parseSourceFilename(entry.filename);
+    const sourceMetadata = getMetadataForEntry(type, entry.filename, parsedFilename, metadata);
     const originalBuffer = await readFile(entry.inputPath);
     const transformedBuffer = await sharp(originalBuffer)
       .rotate()
@@ -93,21 +241,41 @@ async function buildType(type) {
       .toBuffer();
 
     const hash = createHash('sha256').update(transformedBuffer).digest('hex').slice(0, 10);
-    const label = buildLabel(entry.filename);
-    const slug = toSlug(path.basename(entry.filename, path.extname(entry.filename))) || 'image';
+    const label = sourceMetadata?.label ?? buildLabelFromStem(parsedFilename.labelStem);
+    const slug = toSlug(parsedFilename.labelStem) || 'image';
     const outputFilename = `${slug}-${hash}.webp`;
     const outputPath = path.join(outputDirectory, outputFilename);
     const publicUrl = `${baseUrl}/rfs-uploads/${type}/defaults/${outputFilename}`;
+    const labelTags = buildTagsFromLabel(label);
+    const tags = dedupeTags([...(sourceMetadata?.tags ?? []), ...labelTags]);
 
     await writeFile(outputPath, transformedBuffer);
 
-    manifestEntries.push({
-      key: slug,
+    const manifestEntry = {
+      key: parsedFilename.legacyImageId ?? parsedFilename.sourceStem,
       label,
-      type,
+      type: sourceMetadata?.type ?? type,
       url: publicUrl,
-      tags: buildTags(entry.filename),
-    });
+      sourceFilename: entry.filename,
+    };
+
+    if (tags.length > 0) {
+      manifestEntry.tags = tags;
+    }
+
+    if (sourceMetadata?.category) {
+      manifestEntry.category = sourceMetadata.category;
+    }
+
+    if (parsedFilename.legacyImageId) {
+      manifestEntry.legacyImageId = parsedFilename.legacyImageId;
+    }
+
+    if (sourceMetadata?.sourceTable) {
+      manifestEntry.sourceTable = sourceMetadata.sourceTable;
+    }
+
+    manifestEntries.push(manifestEntry);
   }
 
   manifestEntries.sort((a, b) => a.label.localeCompare(b.label));
@@ -119,11 +287,12 @@ async function main() {
     console.warn(`[build-default-assets] BASE_URL not set, using placeholder ${DEFAULT_BASE_URL}`);
   }
 
+  const metadata = await loadMetadata();
   await rm(publicRoot, { recursive: true, force: true });
 
   const manifest = Object.fromEntries(
     await Promise.all(
-      SOURCE_TYPES.map(async (type) => [type, await buildType(type)])
+      SOURCE_TYPES.map(async (type) => [type, await buildType(type, metadata)])
     )
   );
 
@@ -150,4 +319,3 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-
