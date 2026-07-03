@@ -37,6 +37,20 @@
       "legacyImageId": "onOSSGDI425tiJwTfekr"
     },
     {
+      "key": "dw03gaBjQtQHxKOnnI5b",
+      "label": "Absorbent Spill 25l Drum",
+      "type": "items",
+      "url": "https://app-brigade-public-assets.shiftmomentum.au/rfs-uploads/items/defaults/absorbent-spill-25l-drum-b5e2c0afe0.webp",
+      "sourceFilename": "absorbent-spill-25l-drum__dw03gaBjQtQHxKOnnI5b.jpg",
+      "tags": [
+        "absorbent",
+        "spill",
+        "25l",
+        "drum"
+      ],
+      "legacyImageId": "dw03gaBjQtQHxKOnnI5b"
+    },
+    {
       "key": "sARJUKTUhRwz0ePeaRVl",
       "label": "Absorbent Spill 25L Drum",
       "type": "items",
@@ -2693,6 +2707,34 @@
       ],
       "category": "Stocktake",
       "legacyImageId": "wLyt5qzyQWmRFP4dN231"
+    },
+    {
+      "key": "KpkS0LoM4swD6sRdjxIh",
+      "label": "Storz Butterfly Valve 25mm",
+      "type": "items",
+      "url": "https://app-brigade-public-assets.shiftmomentum.au/rfs-uploads/items/defaults/storz-butterfly-valve-25mm-51c648576a.webp",
+      "sourceFilename": "storz-butterfly-valve-25mm__KpkS0LoM4swD6sRdjxIh.jpg",
+      "tags": [
+        "storz",
+        "butterfly",
+        "valve",
+        "25mm"
+      ],
+      "legacyImageId": "KpkS0LoM4swD6sRdjxIh"
+    },
+    {
+      "key": "UNSLt1BhKAsnBG5tr09z",
+      "label": "Storz Butterfly Valve 25mm",
+      "type": "items",
+      "url": "https://app-brigade-public-assets.shiftmomentum.au/rfs-uploads/items/defaults/storz-butterfly-valve-25mm-d8c9dcd77d.webp",
+      "sourceFilename": "storz-butterfly-valve-25mm__UNSLt1BhKAsnBG5tr09z.jpg",
+      "tags": [
+        "storz",
+        "butterfly",
+        "valve",
+        "25mm"
+      ],
+      "legacyImageId": "UNSLt1BhKAsnBG5tr09z"
     },
     {
       "key": "3LFeCMuOPUETC2vTuLlA",
