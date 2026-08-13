@@ -20,7 +20,7 @@ const TAG_STOP_WORDS = new Set([
 ]);
 const MAX_WIDTH = 800;
 const WEBP_QUALITY = 80;
-const DEFAULT_BASE_URL = 'https://app-brigade-public-assets.shiftmomentum.au';
+const DEFAULT_BASE_URL = 'https://assets.gearcheck.au';
 const METADATA_PATH = path.join('metadata', 'glide-image-metadata.json');
 
 const repoRoot = process.cwd();

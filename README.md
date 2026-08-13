@@ -1,12 +1,12 @@
-# RFS Default Image Assets
+# GearCheck Default Image Assets
 
-Public default images and manifest files for the RFS Brigade app.
+Public default images and manifest files for the GearCheck app.
 
 This repo is for default assets only. It is not used for user uploads.
 
 The preferred public base URL is:
 
-- `https://app-brigade-public-assets.shiftmomentum.au`
+- `https://assets.gearcheck.au`
 
 ## Add images
 
@@ -113,15 +113,126 @@ Enable GitHub Pages with `GitHub Actions` as the source.
 
 Set the Actions repo variable:
 
-- `PAGES_BASE_URL = https://app-brigade-public-assets.shiftmomentum.au`
+- `PAGES_BASE_URL = https://assets.gearcheck.au`
 
 The app should read the manifest from:
 
-- `https://app-brigade-public-assets.shiftmomentum.au/rfs-uploads/defaults/image-manifest.json`
+- `https://assets.gearcheck.au/rfs-uploads/defaults/image-manifest.json`
 
 Local builds also default to:
 
-- `BASE_URL=https://app-brigade-public-assets.shiftmomentum.au`
+- `BASE_URL=https://assets.gearcheck.au`
+
+### Why the URL path still says `rfs-uploads`
+
+The published path is deliberately unchanged:
+
+- `https://assets.gearcheck.au/rfs-uploads/...`
+
+The hostname moved to GearCheck, but the path did not. Existing image URLs are
+already stored in the GearCheck database and are referenced by the app and the
+Glide importer, so renaming the path would break those saved URLs. Treat
+`rfs-uploads` as a fixed compatibility path, not as branding.
+
+## Publish
+
+Publishing means running the **Build Default Assets** GitHub Actions workflow.
+That workflow is the only thing that updates the live site: it rebuilds the
+images, commits the regenerated `public/` folder back to the repo, and deploys
+it to GitHub Pages. Building on your own machine only previews the result — it
+never publishes.
+
+### 1. Preview locally first
+
+```bash
+npm install
+npm run build
+```
+
+The build prints the base URL it used and the number of items, appliances and
+locations it generated. Check those numbers look right before publishing.
+
+To force a completely fresh rebuild:
+
+```bash
+npm run clean
+npm run build
+```
+
+### 2. Commit and push
+
+```bash
+git add .
+git commit -m "add new default images"
+git push
+```
+
+If your push touched any of these, the workflow starts **automatically**:
+
+- `source/**`
+- `scripts/**`
+- `package.json`
+- `package-lock.json`
+- `.github/workflows/build-default-assets.yml`
+
+Adding or replacing images in `source/` therefore publishes on its own.
+
+### 3. When you must start the workflow by hand
+
+A push that changes **only** these does **not** trigger the workflow:
+
+- `metadata/glide-image-metadata.json`
+- `README.md`
+- the `PAGES_BASE_URL` repository variable (changing a variable is not a push
+  at all, so nothing runs)
+
+In those cases start it manually. From the command line, with the
+[GitHub CLI](https://cli.github.com/) installed and authenticated:
+
+```bash
+gh workflow run "Build Default Assets"
+```
+
+Then watch it finish:
+
+```bash
+gh run watch
+```
+
+Or list recent runs and their status:
+
+```bash
+gh run list --workflow "Build Default Assets"
+```
+
+From the website instead: open the repository on GitHub → **Actions** tab →
+**Build Default Assets** in the left sidebar → **Run workflow** button →
+**Run workflow**.
+
+### 4. Confirm it published
+
+The workflow pushes its own commit (`chore: rebuild default asset output`), so
+pull it back before doing more local work:
+
+```bash
+git pull
+```
+
+Then check the live manifest:
+
+```bash
+curl -s https://assets.gearcheck.au/rfs-uploads/defaults/image-manifest.json | head -c 400
+```
+
+Every `url` in it should begin with `https://assets.gearcheck.au/rfs-uploads/`.
+Spot-check one image loads:
+
+```bash
+curl -o /dev/null -w "%{http_code}\n" https://assets.gearcheck.au/rfs-uploads/defaults/image-manifest.json
+```
+
+`200` means the site is serving the new manifest. GitHub Pages can take a
+minute or two after the workflow finishes, so retry once before worrying.
 
 ## Tag examples
 
