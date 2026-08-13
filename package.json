@@ -1,5 +1,5 @@
 {
-  "name": "rfs-default-image-assets",
+  "name": "gearcheck-default-image-assets",
   "version": "0.1.0",
   "private": true,
   "description": "Standalone default image asset pipeline for GitHub Pages",
