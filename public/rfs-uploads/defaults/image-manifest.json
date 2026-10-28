@@ -3493,20 +3493,6 @@
       "key": "kRQb91iO8mSMP2lmwibz",
       "label": "Cab",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/cab-5f19500a03.webp",
-      "sourceFilename": "Cab__kRQb91iO8mSMP2lmwibz.jpg",
-      "tags": [
-        "location",
-        "icon",
-        "cab"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "kRQb91iO8mSMP2lmwibz"
-    },
-    {
-      "key": "kRQb91iO8mSMP2lmwibz",
-      "label": "Cab",
-      "type": "locations",
       "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/outside-cab-5f19500a03.webp",
       "sourceFilename": "Outside-Cab__kRQb91iO8mSMP2lmwibz.jpg",
       "tags": [
@@ -3516,6 +3502,36 @@
       ],
       "category": "location_icon",
       "legacyImageId": "kRQb91iO8mSMP2lmwibz"
+    },
+    {
+      "key": "cab",
+      "label": "Cab",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/cab-5586f5e9c1.webp",
+      "sourceFilename": "cab.png",
+      "tags": [
+        "location",
+        "icon",
+        "cab"
+      ],
+      "category": "location_icon"
+    },
+    {
+      "key": "caba-locker",
+      "label": "CABA Locker",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/caba-locker-8521060617.webp",
+      "sourceFilename": "caba-locker.png",
+      "tags": [
+        "location",
+        "icon",
+        "breathing",
+        "apparatus",
+        "ba",
+        "caba",
+        "locker"
+      ],
+      "category": "location_icon"
     },
     {
       "key": "QTsf9eZ8DMg0AmsTHs3T",
@@ -3532,116 +3548,78 @@
       "legacyImageId": "QTsf9eZ8DMg0AmsTHs3T"
     },
     {
-      "key": "TJ43JcoMubMc6DZdL9yC",
-      "label": "Crew Area Box #1",
+      "key": "crew-area-box",
+      "label": "Crew Area Box",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/crew-area-box-1-19e34866da.webp",
-      "sourceFilename": "Crew-Area-Box-1__TJ43JcoMubMc6DZdL9yC.jpg",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/crew-area-box-9b51ea8b89.webp",
+      "sourceFilename": "crew-area-box.png",
       "tags": [
         "location",
         "icon",
         "crew",
         "area",
-        "box",
-        "1"
+        "box"
       ],
-      "category": "location_icon",
-      "legacyImageId": "TJ43JcoMubMc6DZdL9yC"
+      "category": "location_icon"
     },
     {
-      "key": "TJ43JcoMubMc6DZdL9yC",
-      "label": "Crew Area Box #1",
+      "key": "external-equipment",
+      "label": "External Equipment",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/crew-area-box-19e34866da.webp",
-      "sourceFilename": "Crew-Area-Box__TJ43JcoMubMc6DZdL9yC.jpg",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/external-equipment-4b6297554e.webp",
+      "sourceFilename": "external-equipment.png",
       "tags": [
         "location",
         "icon",
-        "crew",
-        "area",
-        "box",
-        "1"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "TJ43JcoMubMc6DZdL9yC"
-    },
-    {
-      "key": "BCWraLCkurJT5rocviL7",
-      "label": "Crew Area Box #2",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/crew-area-box-2-6148cc65ed.webp",
-      "sourceFilename": "Crew-Area-Box-2__BCWraLCkurJT5rocviL7.jpg",
-      "tags": [
-        "location",
-        "icon",
-        "crew",
-        "area",
-        "box",
-        "2"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "BCWraLCkurJT5rocviL7"
-    },
-    {
-      "key": "3gG7xOJQwXqPk65tmEZG",
-      "label": "Equipment",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/external-equipment-4ed403c09f.webp",
-      "sourceFilename": "External-Equipment__3gG7xOJQwXqPk65tmEZG.jpg",
-      "tags": [
-        "location",
-        "icon",
+        "external",
         "equipment"
       ],
-      "category": "location_icon",
-      "legacyImageId": "3gG7xOJQwXqPk65tmEZG"
+      "category": "location_icon"
     },
     {
-      "key": "BckEpWdXpHP7IntpcVAQ",
-      "label": "Locker Icon #1",
+      "key": "generic-area",
+      "label": "Generic Area",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-1-9e410fdc6f.webp",
-      "sourceFilename": "Locker-#1__BckEpWdXpHP7IntpcVAQ.jpg",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/generic-area-f141320322.webp",
+      "sourceFilename": "generic-area.png",
       "tags": [
         "location",
         "icon",
-        "locker",
-        "1"
+        "compartment",
+        "roller",
+        "door",
+        "generic",
+        "area"
       ],
-      "category": "location_icon",
-      "legacyImageId": "BckEpWdXpHP7IntpcVAQ"
+      "category": "location_icon"
     },
     {
-      "key": "u1ITHvphGWRgrOkfNn89",
-      "label": "Locker Icon #2",
+      "key": "hose-reel-bay",
+      "label": "Hose Reel Bay",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-2-99e214aab9.webp",
-      "sourceFilename": "Locker-#2__u1ITHvphGWRgrOkfNn89.jpg",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/hose-reel-bay-7c1da79033.webp",
+      "sourceFilename": "hose-reel-bay.png",
       "tags": [
         "location",
         "icon",
-        "locker",
-        "2"
+        "hose",
+        "reel",
+        "bay"
       ],
-      "category": "location_icon",
-      "legacyImageId": "u1ITHvphGWRgrOkfNn89"
+      "category": "location_icon"
     },
     {
-      "key": "qAlIk6p58tG2DZD03qp5",
-      "label": "Locker Icon #2 - BA Style",
+      "key": "locker",
+      "label": "Locker",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-2-538051944b.webp",
-      "sourceFilename": "Locker-#2__qAlIk6p58tG2DZD03qp5.png",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-1b39219dbd.webp",
+      "sourceFilename": "locker.png",
       "tags": [
         "location",
         "icon",
-        "locker",
-        "2",
-        "ba",
-        "style"
+        "locker"
       ],
-      "category": "location_icon",
-      "legacyImageId": "qAlIk6p58tG2DZD03qp5"
+      "category": "location_icon"
     },
     {
       "key": "qAlIk6p58tG2DZD03qp5",
@@ -3659,70 +3637,6 @@
       ],
       "category": "location_icon",
       "legacyImageId": "qAlIk6p58tG2DZD03qp5"
-    },
-    {
-      "key": "jRpeNUXzaFRVjN5ZUkmD",
-      "label": "Locker Icon #3",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-3-d232c80a93.webp",
-      "sourceFilename": "Locker-#3__jRpeNUXzaFRVjN5ZUkmD.jpg",
-      "tags": [
-        "location",
-        "icon",
-        "locker",
-        "3"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "jRpeNUXzaFRVjN5ZUkmD"
-    },
-    {
-      "key": "kAMbn4zaZxp3JgmB4H22",
-      "label": "Locker Icon #3 - AED Style",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-3-66f7ee4487.webp",
-      "sourceFilename": "Locker-#3__kAMbn4zaZxp3JgmB4H22.png",
-      "tags": [
-        "location",
-        "icon",
-        "locker",
-        "3",
-        "aed",
-        "style"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "kAMbn4zaZxp3JgmB4H22"
-    },
-    {
-      "key": "fXhMAExSs0wiwgd397jl",
-      "label": "Locker Icon #4 - AED Style",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-4-65d89f313c.webp",
-      "sourceFilename": "Locker-#4__fXhMAExSs0wiwgd397jl.png",
-      "tags": [
-        "location",
-        "icon",
-        "locker",
-        "4",
-        "aed",
-        "style"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "fXhMAExSs0wiwgd397jl"
-    },
-    {
-      "key": "lncvEAeMzwaImo25iC0w",
-      "label": "Locker Icon #5",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/locker-5-07b27cb3cb.webp",
-      "sourceFilename": "Locker-#5__lncvEAeMzwaImo25iC0w.png",
-      "tags": [
-        "location",
-        "icon",
-        "locker",
-        "5"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "lncvEAeMzwaImo25iC0w"
     },
     {
       "key": "ufZDqi1KVQEzSDiFpNyt",
@@ -3770,20 +3684,6 @@
       "key": "ufZDqi1KVQEzSDiFpNyt",
       "label": "Maintenance",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/store-room-5c5830bbc1.webp",
-      "sourceFilename": "Store-Room__ufZDqi1KVQEzSDiFpNyt.png",
-      "tags": [
-        "location",
-        "icon",
-        "maintenance"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "ufZDqi1KVQEzSDiFpNyt"
-    },
-    {
-      "key": "ufZDqi1KVQEzSDiFpNyt",
-      "label": "Maintenance",
-      "type": "locations",
       "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/training-room-5c5830bbc1.webp",
       "sourceFilename": "Training-Room__ufZDqi1KVQEzSDiFpNyt.png",
       "tags": [
@@ -3809,20 +3709,32 @@
       "legacyImageId": "vIIUaqFqQnGM6wMNoVSn"
     },
     {
-      "key": "QanHWyzLyrWOngSZcmWp",
-      "label": "Wall Equipment/Accessories",
+      "key": "store-room",
+      "label": "Store Room",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/wall-aac2f4e513.webp",
-      "sourceFilename": "Wall__QanHWyzLyrWOngSZcmWp.png",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/store-room-d915bddfc6.webp",
+      "sourceFilename": "store-room.png",
       "tags": [
         "location",
         "icon",
-        "wall",
-        "equipment",
-        "accessories"
+        "store",
+        "room"
       ],
-      "category": "location_icon",
-      "legacyImageId": "QanHWyzLyrWOngSZcmWp"
+      "category": "location_icon"
+    },
+    {
+      "key": "wall",
+      "label": "Wall",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/wall-4481343b0d.webp",
+      "sourceFilename": "wall.png",
+      "tags": [
+        "location",
+        "icon",
+        "accessories",
+        "wall"
+      ],
+      "category": "location_icon"
     }
   ]
 }

@@ -1862,5 +1862,82 @@
       "location_icon"
     ],
     "category": "location_icon"
+  },
+  "cab": {
+    "label": "Cab",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "locker": {
+    "label": "Locker",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "crew-area-box": {
+    "label": "Crew Area Box",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "caba-locker": {
+    "label": "CABA Locker",
+    "type": "locations",
+    "tags": [
+      "location_icon",
+      "breathing apparatus",
+      "BA"
+    ],
+    "category": "location_icon"
+  },
+  "hose-reel-bay": {
+    "label": "Hose Reel Bay",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "external-equipment": {
+    "label": "External Equipment",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "store-room": {
+    "label": "Store Room",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "wall": {
+    "label": "Wall",
+    "type": "locations",
+    "tags": [
+      "location_icon",
+      "accessories"
+    ],
+    "category": "location_icon"
+  },
+  "generic-area": {
+    "label": "Generic Area",
+    "type": "locations",
+    "tags": [
+      "location_icon",
+      "compartment",
+      "roller door"
+    ],
+    "category": "location_icon"
   }
 }

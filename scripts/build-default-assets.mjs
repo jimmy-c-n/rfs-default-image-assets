@@ -282,6 +282,51 @@ async function buildType(type, metadata) {
   return manifestEntries;
 }
 
+// Retired defaults: files that were published once and replaced. Records saved earlier still
+// store their exact URL, so the file stays online at that URL but is no longer listed in the
+// manifest (nobody can pick it again). Each one is the already-published WebP, copied
+// byte-for-byte and never re-encoded; its name must still match its own content hash.
+const RETIRED_FILENAME = /^[a-z0-9]+(?:-[a-z0-9]+)*-([0-9a-f]{10})\.webp$/;
+
+async function publishRetired(type) {
+  const directoryPath = path.join(sourceRoot, 'retired', type);
+  let entries;
+  try {
+    entries = await readdir(directoryPath, { withFileTypes: true });
+  } catch (error) {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
+      return 0;
+    }
+    throw error;
+  }
+
+  const outputDirectory = path.join(publicRoot, 'rfs-uploads', type, 'defaults');
+  await ensureDirectory(outputDirectory);
+  let published = 0;
+
+  for (const entry of entries) {
+    if (!entry.isFile() || entry.name.startsWith('.')) {
+      continue;
+    }
+
+    const match = RETIRED_FILENAME.exec(entry.name);
+    if (!match) {
+      throw new Error(`Retired file ${type}/${entry.name} must keep its published name (slug-0123456789.webp).`);
+    }
+
+    const bytes = await readFile(path.join(directoryPath, entry.name));
+    const hash = createHash('sha256').update(bytes).digest('hex').slice(0, 10);
+    if (hash !== match[1]) {
+      throw new Error(`Retired file ${type}/${entry.name} has content hash ${hash}; it is not the published file.`);
+    }
+
+    await writeFile(path.join(outputDirectory, entry.name), bytes);
+    published += 1;
+  }
+
+  return published;
+}
+
 async function main() {
   if (process.env.BASE_URL === undefined) {
     console.warn(`[build-default-assets] BASE_URL not set, using placeholder ${DEFAULT_BASE_URL}`);
@@ -306,10 +351,18 @@ async function main() {
     SOURCE_TYPES.map((type) => [type, manifest[type].length])
   );
 
+  // After the active build (which recreates public/). A retired name equal to an active one has
+  // the same content hash, so it is the same bytes.
+  const retired = {};
+  for (const type of SOURCE_TYPES) {
+    retired[type] = await publishRetired(type);
+  }
+
   console.log(JSON.stringify({
     ok: true,
     baseUrl,
     counts: summary,
+    retired,
     manifestPath: manifestOutputPath,
   }, null, 2));
 }

@@ -87,6 +87,28 @@ the manifest. If `metadata.tags` exists, those tags are merged with the
 label-derived tags instead of replacing them. GitHub Actions uses the same
 build script, so local builds and CI builds follow the same tag logic.
 
+## Replace or retire an image
+
+GearCheck saves the full image URL on each record that uses a default (for example an area's
+photo). A replaced image gets a new hashed filename, so records saved earlier still point at the
+old file. Deleting the old source would remove that file from the site and break those records.
+
+To replace an image without breaking anything:
+
+1. Copy the old published file, unchanged, from `public/rfs-uploads/<type>/defaults/` into
+   `source/retired/<type>/` (same name, e.g. `locker-1-9e410fdc6f.webp`).
+2. Remove the old file from `source/<type>/` and add the new one.
+3. Build. The retired file is published at its old URL, byte-for-byte, but is no longer in the
+   manifest, so nobody can pick it again. The build stops if a retired file's name does not match
+   its content hash (that would not be the published file).
+
+The minimalist area images' SVG masters are kept in `artwork/locations/` (not built). Their
+`source/locations/*.png` files are those SVGs rendered at 350x350, the size of the other area
+images.
+
+Moving records on to the new image is a separate, reviewed GearCheck database change. Delete a
+file from `source/retired/` only once nothing in the database points at it any more.
+
 ## Build output
 
 The build process converts source images to optimized WebP files, adds content-hashed filenames for cache busting, and publishes:
