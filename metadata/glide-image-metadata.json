@@ -1939,5 +1939,89 @@
       "roller door"
     ],
     "category": "location_icon"
+  },
+  "outside-cab": {
+    "label": "Outside Cab",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "chassis": {
+    "label": "Chassis",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "radio": {
+    "label": "Radio",
+    "type": "locations",
+    "tags": [
+      "location_icon",
+      "radios",
+      "comms"
+    ],
+    "category": "location_icon"
+  },
+  "training-room": {
+    "label": "Training Room",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "maintenance": {
+    "label": "Maintenance",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "station-bay": {
+    "label": "Station Bay",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "tray": {
+    "label": "Tray",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "roof-box": {
+    "label": "Roof Box",
+    "type": "locations",
+    "tags": [
+      "location_icon"
+    ],
+    "category": "location_icon"
+  },
+  "toolbox": {
+    "label": "Toolbox",
+    "type": "locations",
+    "tags": [
+      "location_icon",
+      "tools"
+    ],
+    "category": "location_icon"
+  },
+  "first-aid": {
+    "label": "First Aid",
+    "type": "locations",
+    "tags": [
+      "location_icon",
+      "medical"
+    ],
+    "category": "location_icon"
   }
 }

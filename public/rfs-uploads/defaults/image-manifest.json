@@ -3520,18 +3520,17 @@
       "category": "location_icon"
     },
     {
-      "key": "QTsf9eZ8DMg0AmsTHs3T",
+      "key": "chassis",
       "label": "Chassis",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/chassis-20049bc2f5.webp",
-      "sourceFilename": "Chassis__QTsf9eZ8DMg0AmsTHs3T.png",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/chassis-cae03d432f.webp",
+      "sourceFilename": "chassis.png",
       "tags": [
         "location",
         "icon",
         "chassis"
       ],
-      "category": "location_icon",
-      "legacyImageId": "QTsf9eZ8DMg0AmsTHs3T"
+      "category": "location_icon"
     },
     {
       "key": "crew-area-box",
@@ -3559,6 +3558,21 @@
         "icon",
         "external",
         "equipment"
+      ],
+      "category": "location_icon"
+    },
+    {
+      "key": "first-aid",
+      "label": "First Aid",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/first-aid-c2abdf7b1a.webp",
+      "sourceFilename": "first-aid.png",
+      "tags": [
+        "location",
+        "icon",
+        "medical",
+        "first",
+        "aid"
       ],
       "category": "location_icon"
     },
@@ -3608,89 +3622,74 @@
       "category": "location_icon"
     },
     {
-      "key": "ufZDqi1KVQEzSDiFpNyt",
+      "key": "maintenance",
       "label": "Maintenance",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/appliance-maintenance-5c5830bbc1.webp",
-      "sourceFilename": "Appliance-Maintenance__ufZDqi1KVQEzSDiFpNyt.png",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/maintenance-06f15bffd9.webp",
+      "sourceFilename": "maintenance.png",
       "tags": [
         "location",
         "icon",
         "maintenance"
       ],
-      "category": "location_icon",
-      "legacyImageId": "ufZDqi1KVQEzSDiFpNyt"
+      "category": "location_icon"
     },
     {
-      "key": "ufZDqi1KVQEzSDiFpNyt",
-      "label": "Maintenance",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/cat-1-bay-5c5830bbc1.webp",
-      "sourceFilename": "Cat-1-Bay__ufZDqi1KVQEzSDiFpNyt.png",
-      "tags": [
-        "location",
-        "icon",
-        "maintenance"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "ufZDqi1KVQEzSDiFpNyt"
-    },
-    {
-      "key": "ufZDqi1KVQEzSDiFpNyt",
-      "label": "Maintenance",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/cat-7-bay-5c5830bbc1.webp",
-      "sourceFilename": "Cat-7-Bay__ufZDqi1KVQEzSDiFpNyt.png",
-      "tags": [
-        "location",
-        "icon",
-        "maintenance"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "ufZDqi1KVQEzSDiFpNyt"
-    },
-    {
-      "key": "ufZDqi1KVQEzSDiFpNyt",
-      "label": "Maintenance",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/training-room-5c5830bbc1.webp",
-      "sourceFilename": "Training-Room__ufZDqi1KVQEzSDiFpNyt.png",
-      "tags": [
-        "location",
-        "icon",
-        "maintenance"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "ufZDqi1KVQEzSDiFpNyt"
-    },
-    {
-      "key": "kRQb91iO8mSMP2lmwibz",
+      "key": "outside-cab",
       "label": "Outside Cab",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/outside-cab-5f19500a03.webp",
-      "sourceFilename": "Outside-Cab__kRQb91iO8mSMP2lmwibz.jpg",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/outside-cab-71bcc5539b.webp",
+      "sourceFilename": "outside-cab.png",
       "tags": [
         "location",
         "icon",
         "outside",
         "cab"
       ],
-      "category": "location_icon",
-      "legacyImageId": "kRQb91iO8mSMP2lmwibz"
+      "category": "location_icon"
     },
     {
-      "key": "vIIUaqFqQnGM6wMNoVSn",
+      "key": "radio",
       "label": "Radio",
       "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/radios-7dad95aaf8.webp",
-      "sourceFilename": "Radios__vIIUaqFqQnGM6wMNoVSn.png",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/radio-0cd1cc2254.webp",
+      "sourceFilename": "radio.png",
       "tags": [
         "location",
         "icon",
+        "radios",
+        "comms",
         "radio"
       ],
-      "category": "location_icon",
-      "legacyImageId": "vIIUaqFqQnGM6wMNoVSn"
+      "category": "location_icon"
+    },
+    {
+      "key": "roof-box",
+      "label": "Roof Box",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/roof-box-778cfd6371.webp",
+      "sourceFilename": "roof-box.png",
+      "tags": [
+        "location",
+        "icon",
+        "roof",
+        "box"
+      ],
+      "category": "location_icon"
+    },
+    {
+      "key": "station-bay",
+      "label": "Station Bay",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/station-bay-f7b7af8642.webp",
+      "sourceFilename": "station-bay.png",
+      "tags": [
+        "location",
+        "icon",
+        "station",
+        "bay"
+      ],
+      "category": "location_icon"
     },
     {
       "key": "store-room",
@@ -3703,6 +3702,47 @@
         "icon",
         "store",
         "room"
+      ],
+      "category": "location_icon"
+    },
+    {
+      "key": "toolbox",
+      "label": "Toolbox",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/toolbox-e3ac6a600c.webp",
+      "sourceFilename": "toolbox.png",
+      "tags": [
+        "location",
+        "icon",
+        "tools",
+        "toolbox"
+      ],
+      "category": "location_icon"
+    },
+    {
+      "key": "training-room",
+      "label": "Training Room",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/training-room-733953903c.webp",
+      "sourceFilename": "training-room.png",
+      "tags": [
+        "location",
+        "icon",
+        "training",
+        "room"
+      ],
+      "category": "location_icon"
+    },
+    {
+      "key": "tray",
+      "label": "Tray",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/tray-2343b2d940.webp",
+      "sourceFilename": "tray.png",
+      "tags": [
+        "location",
+        "icon",
+        "tray"
       ],
       "category": "location_icon"
     },
