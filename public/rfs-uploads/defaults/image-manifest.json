@@ -3490,20 +3490,6 @@
   ],
   "locations": [
     {
-      "key": "kRQb91iO8mSMP2lmwibz",
-      "label": "Cab",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/outside-cab-5f19500a03.webp",
-      "sourceFilename": "Outside-Cab__kRQb91iO8mSMP2lmwibz.jpg",
-      "tags": [
-        "location",
-        "icon",
-        "cab"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "kRQb91iO8mSMP2lmwibz"
-    },
-    {
       "key": "cab",
       "label": "Cab",
       "type": "locations",
@@ -3622,23 +3608,6 @@
       "category": "location_icon"
     },
     {
-      "key": "qAlIk6p58tG2DZD03qp5",
-      "label": "Locker Icon #2 - BA Style",
-      "type": "locations",
-      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/test-538051944b.webp",
-      "sourceFilename": "test__qAlIk6p58tG2DZD03qp5.png",
-      "tags": [
-        "location",
-        "icon",
-        "locker",
-        "2",
-        "ba",
-        "style"
-      ],
-      "category": "location_icon",
-      "legacyImageId": "qAlIk6p58tG2DZD03qp5"
-    },
-    {
       "key": "ufZDqi1KVQEzSDiFpNyt",
       "label": "Maintenance",
       "type": "locations",
@@ -3693,6 +3662,21 @@
       ],
       "category": "location_icon",
       "legacyImageId": "ufZDqi1KVQEzSDiFpNyt"
+    },
+    {
+      "key": "kRQb91iO8mSMP2lmwibz",
+      "label": "Outside Cab",
+      "type": "locations",
+      "url": "https://assets.gearcheck.au/rfs-uploads/locations/defaults/outside-cab-5f19500a03.webp",
+      "sourceFilename": "Outside-Cab__kRQb91iO8mSMP2lmwibz.jpg",
+      "tags": [
+        "location",
+        "icon",
+        "outside",
+        "cab"
+      ],
+      "category": "location_icon",
+      "legacyImageId": "kRQb91iO8mSMP2lmwibz"
     },
     {
       "key": "vIIUaqFqQnGM6wMNoVSn",
